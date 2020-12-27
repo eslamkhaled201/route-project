@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <main class="d-flex mx-auto flex-column align-items-center justify-content-center p-4">
+    <form class="form-container mb-2" action="Post">
+      <h1 class="text-primary mb-5 text-capitalize text-center"> smart login system</h1>
+      <div class="form-group mb-3 ">
+        <input class="form-control  " placeholder="Enter Your Email" type="email" name="emialInput"
+          id="userEmailIn">
+      </div>
+      <div class="form-group mb-3">
+        <input class="form-control" placeholder="Enter Your password" type="password" name="passwodInput"
+        id="userPassIn">
+
+      </div>
+      <div class="w-100 text-center alert-box mb-3"></div>
+      <input id="signInBtn" class="w-100 btn btn-outline-primary" type="button" value="Login">
+    </form>
+
+    <div class="Sign-up-option mt-2 text-capitalize text-light text-center row">
+      <h6 class="mr-2 col-sm-12"> don't have an Account ?</h6>
+      <a class="d-block col-sm-12" id="signUp-link" href="./sign up.html ">Sign up</a>
+    </div>
+  </main>
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

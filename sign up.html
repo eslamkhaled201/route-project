@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <main class="d-flex mx-auto flex-column align-items-center justify-content-center p-4">
+    <form class="form-container mb-2" action="Post">
+      <h1 class="text-primary mb-3 text-capitalize text-center"> smart login system</h1>
+      <div class="form-group mb-3">
+        <input class="form-control " placeholder="Enter User Name" type="text" name="nameInput" id="userNameIn">
+        <small class="req-patten-box w-100 border-danger text-danger"><i class="fas fa-exclamation-circle">
+        </i>name must contain small or capital letters or numbers only</small>
+      </div>
+      <div class="form-group mb-3 ">
+        <input class="form-control  " placeholder="Enter Your Email" type="email" name="emialInput" id="userEmailIn">
+      </div>
+      <div class="form-group mb-3">
+        <input class="form-control" placeholder="Enter Your password" type="password" name="passwodInput"
+          id="userPassIn">
+          <small class="req-patten-box w-100 border-danger text-danger"><i class="fas fa-exclamation-circle">
+          </i>password must contain minimum 2 small letter and capital letters and any number</small>
+      </div>
+      <div class="w-100 text-center mb-3 text-success alert-box"></div>
+      <input id="signUpBtn" class="w-100 btn btn-outline-primary" type="button" value="sign up">
+    </form>
+
+    <div class="Sign-up-option mt-2 text-capitalize text-light text-center d-flex">
+      <h6 class="mr-2"> you have an Account ?</h6>
+      <a class="d-block" href="./index.html">sign in</a>
+    </div>
+  </main>
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
